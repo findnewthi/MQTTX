@@ -1,12 +1,6 @@
 name: deploy web
 
 on:
-  release:
-    types:
-      - published
-  pull_request:
-    paths:
-      - 'web/**'
   workflow_dispatch:
 
 jobs:
